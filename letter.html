@@ -16,13 +16,10 @@
       <div class="title">Tap to Play Sound</div>
       <div class="pause" onclick="togglePlay()">🔇</div>
       <div class="player">
-        <audio
-          class="audio"
-          src="song.mp3"
-          autoplay
-          type="audio"
-          loop=""
-        ></audio>
+      <audio autoplay>
+  <source src="song.ogg" type="audio/ogg">
+  <source src="song.mp3" type="audio/mpeg">
+      </audio>
       </div>
     </div>
     <footer>
